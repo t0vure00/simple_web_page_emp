@@ -1,13 +1,28 @@
 <!DOCTYPE html> <!-- Määrittää dokumentti tyypin, tarkoittaa versiota HTML5 ja jälkeen -->
 <html lang="en"> <!-- Kontaineri kaikille HTML elementeille, lang atribuutti määrittää kielen -->
-<head> <!-- Head tagilla luodaan otsikko selain välilehti kontaineriin, CSS syntaksi ja auttaa JavaScriptin kanssa??-->
-<title>Sivun nimi</title> <!-- Itse otsikko -->
-</head>
-<body> <!-- body tagia käytetään näyttämään web sivun sisältö.-->
+    <head> <!-- Head tagilla luodaan otsikko selain välilehti kontaineriin, CSS syntaksi ja auttaa JavaScriptin kanssa??-->
+        <style>
+            body {
+              background-color: #0d5b65;
+            }
+            
+            h1 {
+                color: white;
+                text-align: center;
+                font-size: 30px;
+            }
+            
+            p {
+                font-family: 'Times New Roman', serif;
+                font-size: 20px;
+            }
+            </style>
+        <title>Sivun nimi</title> <!-- Itse otsikko -->
+    </head>
+    <body> <!-- body tagia käytetään näyttämään web sivun sisältö.-->
 
-<h1>Otsikko</h1> <!-- Tällä määritetään otsikko 1 (yleensä suurin)-->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate dolor
-    vitae auctor tincidunt. Vivamus sit amet nisl nec dui gravida scelerisque.</p> <!-- Ja kappale otsikolle kaveriksi-->
-
-</body>
+        <h1>Otsikko</h1> <!-- Tällä määritetään otsikko 1 (yleensä suurin)-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate dolor
+            vitae auctor tincidunt. Vivamus sit amet nisl nec dui gravida scelerisque.</p> <!-- Ja kappale otsikolle kaveriksi-->
+    </body>
 </html>
