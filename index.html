@@ -16,7 +16,12 @@
                 font-family: 'Times New Roman', serif;
                 font-size: 20px;
             }
-            </style>
+        </style>
+        <script>
+            function getDate() {
+                document.getElementById('time').innerHTML = Date();
+            }
+        </script>
         <title>Sivun nimi</title> <!-- Itse otsikko -->
     </head>
     <body> <!-- body tagia käytetään näyttämään web sivun sisältö.-->
@@ -24,5 +29,9 @@
         <h1>Otsikko</h1> <!-- Tällä määritetään otsikko 1 (yleensä suurin)-->
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate dolor
             vitae auctor tincidunt. Vivamus sit amet nisl nec dui gravida scelerisque.</p> <!-- Ja kappale otsikolle kaveriksi-->
+        
+        <button type="button"
+        onclick="getDate()">Click to display time.</button>
+        <p id="time"></p>
     </body>
 </html>
